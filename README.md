@@ -18,7 +18,7 @@ image.
 2. Your network should include convolutional layers, pooling layers, dropout
 layers, and fully connected layers.
 3. Construct and train a baseline CNN using the following architecture: 2
-convolutional layers each with ReLU activation and subsequent max pooling, followed by a dropout and a fully-connected layer with softmax activation, optimized using the Adam optimizer and trained with the crossentropy loss function.
+convolutional layers each with ReLU activation and subsequent max pooling, followed by a dropout and a fully-connected layer with softmax activation, optimized using the Adam optimizer and trained with the crossentropy loss function.
 4. Display feature maps after applying convolution and pooling layers for any
 one class and provide a brief analysis.
 5. Report the training and validation loss and accuracy at each epoch.
@@ -27,7 +27,7 @@ one class and provide a brief analysis.
 architectures and hyperparameters: learning rate, batch size, kernel sizes
 (filter size), strides, number of epochs, and dropout rates.
 2. Compare the effect of using and not using dropout layers.
-3. Log training/validation loss and accuracy, confusion matrices, and classspecific metrics using W&B.
+3. Log training/validation loss and accuracy, confusion matrices, and class-specific metrics using W&B.
 ## Model Evaluation and Analysis
 1. Evaluate your best model on the test set and report accuracy, per-class
 accuracy, and classification report.
@@ -59,7 +59,7 @@ Download the DoubleMNIST dataset from [here](https://drive.google.com/file/d/1Mq
 contains images with two handwritten digits, and the task is to correctly identify
 and classify each digit within the image.
 Build and train models that can simultaneously recognize and predict the
-two digits from a single image.This is basically another version of a multilabel
+two digits from a single image. This is basically another version of a multilabel
 classification.  
 
 • Display several images from the filtered dataset to familiarize yourself with
